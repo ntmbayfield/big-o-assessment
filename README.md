@@ -51,3 +51,23 @@ function multiply (a, b) {
 ```
 
 > Answer here
+
+---
+
+Write the worse-case time complexity of this function:
+
+```js
+function vectorMultiply (vA, vB) {
+  var c = []
+  for (var i=0; i<vA.length; i++) {
+    var row = []
+    for (var j=0; j<vB.length; j++) {
+      row.push(vA[i] * vB[j])
+    }
+    c.push(row)
+  }
+  return c
+}
+```
+
+> Answer here
